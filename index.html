@@ -45,6 +45,41 @@
         </div>
     </header>
 
+    <div class="mobile-navagation" aria-label="mobile navigation">
+        <label for="menu-toggler-id" aria-label="open-close mobile navigation menu">
+            <svg class="mobile-navagation__burger" aria-label="burger icon">
+                <use href="assets/sprites.svg#burger-icon"></use>
+            </svg>
+        </label>
+        
+        <input type="checkbox" name="toggler" id="menu-toggler-id" class="mobile-navagation__toggler">
+        
+        <nav class="mobile-navagation__menu" aria-label="mobile navagation menu">
+            <ul class="mobile-navagation__list" aria-label="mobile navigation list">
+                <li class="mobile-navagation__item">
+                    <a href="#about-id" class="mobile-navagation__link">Why Alivio</a>
+                </li>
+                <li class="mobile-navagation__item">
+                    <a href="#success-id" class="mobile-navagation__link">Solutions</a>
+                </li>
+                <li class="mobile-navagation__item">
+                    <a href="#product-id" class="mobile-navagation__link">Community</a>
+                </li>
+                <li class="mobile-navagation__item">
+                    <a href="#pricing-id" class="mobile-navagation__link">Pricing</a>
+                </li>
+            </ul>
+
+        <label for="menu-toggler-id" class="mobile-navagation__close" aria-label="close mobile navigation menu">
+            <svg class="mobile-navagation__cross" aria-label="cross icon">
+                <use href="assets/sprites.svg#cross-icon"></use>
+            </svg>
+        </label>
+
+        </nav>
+    </div>
+
+
     <main>
         <section class="hero" aria-label="hero section" id="hero-id">
             <div class="container">
@@ -131,7 +166,8 @@
                     <figure class="person-card" aria-label="person card">
                         <h4 class="person-card__title">Customized For</h4>
                         <div class="person-card__preview">
-                            <img src="./assets/webp/photo_card.webp" alt="preview image" class="person-card__preview-img">
+                            <img src="./assets/webp/photo_card.webp" alt="preview image"
+                                class="person-card__preview-img">
                         </div>
                         <h5 class="person-card__name">Mikayla</h5>
                         <blockquote class="person-card__desc" aria-label="description">
